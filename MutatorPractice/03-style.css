@@ -1,0 +1,45 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+div.buttons button.b1  
+{
+    border-color: orange;
+    font-weight: 700;
+}
+div.buttons button.b2  
+{
+    border-color: lightcoral;
+    font-weight: 700;
+}
+div.buttons button.b3  
+{
+    border-color: rgb(36, 152, 224);
+    font-weight: 700;
+}
+div.buttons button.b4  
+{
+    border-color: rgb(102, 255, 0);
+    font-weight: 700;
+}
+div.buttons button.b5  
+{
+    font-weight: 700;
+    border-color: red;
+}
+div.buttons button.b6  
+{
+    font-weight: 700;
+    border-color: violet;
+}
+div.buttons button.p-2
+{
+    transition: opacity 0.3s ease-in-out;
+}
+div.buttons button.p-2:hover
+{
+    background-color: rgb(142, 223, 88);
+    color: white;
+}
